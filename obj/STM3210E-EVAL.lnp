@@ -1,0 +1,5 @@
+--device DARMSTM ".\obj\startup_stm32f10x_hd.o" ".\obj\system_stm32f10x.o" ".\obj\core_cm3.o" ".\obj\misc.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_tim.o" ".\obj\mbascii.o" ".\obj\mbfunccoils.o" ".\obj\mbfuncdiag.o" ".\obj\mbfuncdisc.o" ".\obj\mbfuncholding.o" ".\obj\mbfuncinput.o" ".\obj\mbfuncother.o" ".\obj\mbutils.o" ".\obj\mbcrc.o" ".\obj\mbrtu.o" ".\obj\mbtcp.o" ".\obj\mb.o" ".\obj\portevent.o" ".\obj\portserial.o" ".\obj\porttimer.o" ".\obj\stm32f10x_it.o" ".\obj\main.o" ".\obj\modbuscb.o" 
+--library_type=microlib --strict --scatter ".\obj\STM3210E-EVAL.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\obj\STM3210E-EVAL.map" -o .\obj\STM3210E-EVAL.axf

@@ -1,0 +1,5 @@
+-c --device DARMSTM -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I.\scr -I.\scr\Libraries -I.\scr\Libraries\CMSIS -I.\scr\Libraries\Startup -I.\scr\Libraries\STM32F10x_StdPeriph_Driver\inc -I.\scr\modbus\include -I.\scr\modbus\port -I.\scr\modbus\ascii -I.\scr\modbus\functions -I.\scr\modbus\rtu -I.\scr\modbus\tcp 
+-I C:\Keil\ARM\RV31\Inc 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\++ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o ".\obj\mbtcp.o" --omf_browse ".\obj\mbtcp.crf" --depend ".\obj\mbtcp.d" "scr\modbus\tcp\mbtcp.c"

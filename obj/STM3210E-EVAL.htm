@@ -1,0 +1,1034 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\obj\STM3210E-EVAL.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\obj\STM3210E-EVAL.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, RVCT4.0 [Build 524]: Last Updated: Fri Jul 24 22:16:59 2015
+<BR><P>
+<H3>Maximum Stack Usage =        144 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; eMBInit &rArr; eMBRTUInit &rArr; xMBPortSerialInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[159f3c4]">ADC1_2_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[159f3c4]">ADC1_2_IRQHandler</a><BR>
+ <LI><a href="#[1da46e4]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1da46e4]">BusFault_Handler</a><BR>
+ <LI><a href="#[1da466c]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1da466c]">HardFault_Handler</a><BR>
+ <LI><a href="#[1da4630]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1da4630]">MemManage_Handler</a><BR>
+ <LI><a href="#[1da448c]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1da448c]">UsageFault_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[159f61c]">Reset_Handler</a>
+ <LI><a href="#[1da45f4]">NMI_Handler</a>
+ <LI><a href="#[1da466c]">HardFault_Handler</a>
+ <LI><a href="#[1da4630]">MemManage_Handler</a>
+ <LI><a href="#[1da46e4]">BusFault_Handler</a>
+ <LI><a href="#[1da448c]">UsageFault_Handler</a>
+ <LI><a href="#[1da457c]">SVC_Handler</a>
+ <LI><a href="#[1da46a8]">DebugMon_Handler</a>
+ <LI><a href="#[1da45b8]">PendSV_Handler</a>
+ <LI><a href="#[1da4540]">SysTick_Handler</a>
+ <LI><a href="#[159e5f0]">WWDG_IRQHandler</a>
+ <LI><a href="#[159ed34]">PVD_IRQHandler</a>
+ <LI><a href="#[159eb54]">TAMPER_IRQHandler</a>
+ <LI><a href="#[159ec80]">RTC_IRQHandler</a>
+ <LI><a href="#[159ee9c]">FLASH_IRQHandler</a>
+ <LI><a href="#[159ecf8]">RCC_IRQHandler</a>
+ <LI><a href="#[159f040]">EXTI0_IRQHandler</a>
+ <LI><a href="#[159efc8]">EXTI1_IRQHandler</a>
+ <LI><a href="#[159ef8c]">EXTI2_IRQHandler</a>
+ <LI><a href="#[159ef50]">EXTI3_IRQHandler</a>
+ <LI><a href="#[159ef14]">EXTI4_IRQHandler</a>
+ <LI><a href="#[159f2d4]">DMA1_Channel1_IRQHandler</a>
+ <LI><a href="#[159f298]">DMA1_Channel2_IRQHandler</a>
+ <LI><a href="#[159f25c]">DMA1_Channel3_IRQHandler</a>
+ <LI><a href="#[159f220]">DMA1_Channel4_IRQHandler</a>
+ <LI><a href="#[159f1e4]">DMA1_Channel5_IRQHandler</a>
+ <LI><a href="#[159f1a8]">DMA1_Channel6_IRQHandler</a>
+ <LI><a href="#[159f16c]">DMA1_Channel7_IRQHandler</a>
+ <LI><a href="#[159f3c4]">ADC1_2_IRQHandler</a>
+ <LI><a href="#[159e668]">USB_HP_CAN1_TX_IRQHandler</a>
+ <LI><a href="#[159e62c]">USB_LP_CAN1_RX0_IRQHandler</a>
+ <LI><a href="#[159f34c]">CAN1_RX1_IRQHandler</a>
+ <LI><a href="#[159f310]">CAN1_SCE_IRQHandler</a>
+ <LI><a href="#[159eed8]">EXTI9_5_IRQHandler</a>
+ <LI><a href="#[159eb18]">TIM1_BRK_IRQHandler</a>
+ <LI><a href="#[159ea64]">TIM1_UP_IRQHandler</a>
+ <LI><a href="#[159eaa0]">TIM1_TRG_COM_IRQHandler</a>
+ <LI><a href="#[159eadc]">TIM1_CC_IRQHandler</a>
+ <LI><a href="#[1da4504]">TIM2_IRQHandler</a>
+ <LI><a href="#[159e9ec]">TIM3_IRQHandler</a>
+ <LI><a href="#[159e9b0]">TIM4_IRQHandler</a>
+ <LI><a href="#[159ede8]">I2C1_EV_IRQHandler</a>
+ <LI><a href="#[159ee24]">I2C1_ER_IRQHandler</a>
+ <LI><a href="#[159ed70]">I2C2_EV_IRQHandler</a>
+ <LI><a href="#[159edac]">I2C2_ER_IRQHandler</a>
+ <LI><a href="#[159ec08]">SPI1_IRQHandler</a>
+ <LI><a href="#[159ebcc]">SPI2_IRQHandler</a>
+ <LI><a href="#[1da44c8]">USART1_IRQHandler</a>
+ <LI><a href="#[159e71c]">USART2_IRQHandler</a>
+ <LI><a href="#[159e6e0]">USART3_IRQHandler</a>
+ <LI><a href="#[159f004]">EXTI15_10_IRQHandler</a>
+ <LI><a href="#[159ecbc]">RTCAlarm_IRQHandler</a>
+ <LI><a href="#[159e6a4]">USBWakeUp_IRQHandler</a>
+ <LI><a href="#[159e8c0]">TIM8_BRK_IRQHandler</a>
+ <LI><a href="#[159e80c]">TIM8_UP_IRQHandler</a>
+ <LI><a href="#[159e848]">TIM8_TRG_COM_IRQHandler</a>
+ <LI><a href="#[159e884]">TIM8_CC_IRQHandler</a>
+ <LI><a href="#[159f388]">ADC3_IRQHandler</a>
+ <LI><a href="#[159ee60]">FSMC_IRQHandler</a>
+ <LI><a href="#[159ec44]">SDIO_IRQHandler</a>
+ <LI><a href="#[159e974]">TIM5_IRQHandler</a>
+ <LI><a href="#[159eb90]">SPI3_IRQHandler</a>
+ <LI><a href="#[159e7d0]">UART4_IRQHandler</a>
+ <LI><a href="#[159e794]">UART5_IRQHandler</a>
+ <LI><a href="#[159e938]">TIM6_IRQHandler</a>
+ <LI><a href="#[159e8fc]">TIM7_IRQHandler</a>
+ <LI><a href="#[159f130]">DMA2_Channel1_IRQHandler</a>
+ <LI><a href="#[159f0f4]">DMA2_Channel2_IRQHandler</a>
+ <LI><a href="#[159f0b8]">DMA2_Channel3_IRQHandler</a>
+ <LI><a href="#[159f07c]">DMA2_Channel4_5_IRQHandler</a>
+ <LI><a href="#[1da37a8]">main</a>
+ <LI><a href="#[159f694]">SystemInit</a>
+ <LI><a href="#[1da2dd0]">__main</a>
+ <LI><a href="#[1e18ca8]">eMBASCIIStart</a>
+ <LI><a href="#[1e18c6c]">eMBASCIIStop</a>
+ <LI><a href="#[1e18ce4]">eMBASCIISend</a>
+ <LI><a href="#[1e18d20]">eMBASCIIReceive</a>
+ <LI><a href="#[1e18c30]">xMBASCIIReceiveFSM</a>
+ <LI><a href="#[1e18bb8]">xMBASCIITransmitFSM</a>
+ <LI><a href="#[1e18bf4]">xMBASCIITimerT1SExpired</a>
+ <LI><a href="#[1da95e0]">eMBRTUStart</a>
+ <LI><a href="#[1da95a4]">eMBRTUStop</a>
+ <LI><a href="#[1da961c]">eMBRTUSend</a>
+ <LI><a href="#[1da9658]">eMBRTUReceive</a>
+ <LI><a href="#[1da9568]">xMBRTUReceiveFSM</a>
+ <LI><a href="#[1da94f0]">xMBRTUTransmitFSM</a>
+ <LI><a href="#[1da952c]">xMBRTUTimerT35Expired</a>
+ <LI><a href="#[1e16908]">eMBFuncReportSlaveID</a>
+ <LI><a href="#[1e16f5c]">eMBFuncReadInputRegister</a>
+ <LI><a href="#[1e173d0]">eMBFuncReadHoldingRegister</a>
+ <LI><a href="#[1e1731c]">eMBFuncWriteMultipleHoldingRegister</a>
+ <LI><a href="#[1e17358]">eMBFuncWriteHoldingRegister</a>
+ <LI><a href="#[1e17394]">eMBFuncReadWriteMultipleHoldingRegister</a>
+ <LI><a href="#[1e182d0]">eMBFuncReadCoils</a>
+ <LI><a href="#[1e18294]">eMBFuncWriteCoil</a>
+ <LI><a href="#[1e18258]">eMBFuncWriteMultipleCoils</a>
+ <LI><a href="#[1e17d6c]">eMBFuncReadDiscreteInputs</a>
+ <LI><a href="#[1e1740c]">eMBFuncChargeAnalogSetup</a>
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[1da2dd0]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(.text)
+</UL>
+<P><STRONG><a name="[1da27b8]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[1da268c]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[1da2434]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[1da2650]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[1da2434]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[1da2560]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[159f61c]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f3c4]"></a>ADC1_2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[159f3c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[159f3c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f388]"></a>ADC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f34c]"></a>CAN1_RX1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f310]"></a>CAN1_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f2d4]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f298]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f25c]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f220]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f1e4]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f1a8]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f16c]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f130]"></a>DMA2_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f0f4]"></a>DMA2_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f0b8]"></a>DMA2_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f07c]"></a>DMA2_Channel4_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f040]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f004]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159efc8]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ef8c]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ef50]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ef14]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159eed8]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ee9c]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ee60]"></a>FSMC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ee24]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ede8]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159edac]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ed70]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ed34]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ecf8]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ecbc]"></a>RTCAlarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ec80]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ec44]"></a>SDIO_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ec08]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ebcc]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159eb90]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159eb54]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159eb18]"></a>TIM1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159eadc]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159eaa0]"></a>TIM1_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159ea64]"></a>TIM1_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e9ec]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e9b0]"></a>TIM4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e974]"></a>TIM5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e938]"></a>TIM6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e8fc]"></a>TIM7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e8c0]"></a>TIM8_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e884]"></a>TIM8_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e848]"></a>TIM8_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e80c]"></a>TIM8_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e7d0]"></a>UART4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e794]"></a>UART5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e71c]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e6e0]"></a>USART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e6a4]"></a>USBWakeUp_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e668]"></a>USB_HP_CAN1_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e62c]"></a>USB_LP_CAN1_RX0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159e5f0]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1da2b00]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1e16908]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReportSlaveID
+</UL>
+
+<P><STRONG><a name="[1da2ac4]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[1da2a88]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[1da2434]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1da2650]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da268c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[1da23f8]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[1da46e4]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.BusFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[1da46e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da46e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1da46a8]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.DebugMon_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1e18b7c]"></a>EnterCriticalSection</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, portserial.o(i.EnterCriticalSection))
+<BR><BR>[Called By]<UL><LI><a href="#[1da95a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[1da95e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[1da961c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[1da9658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+<LI><a href="#[1da9694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[1e18c6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStop
+<LI><a href="#[1e18ca8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStart
+<LI><a href="#[1e18ce4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIISend
+<LI><a href="#[1e18d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIReceive
+<LI><a href="#[1e18d5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIInit
+</UL>
+
+<P><STRONG><a name="[1e18b40]"></a>ExitCriticalSection</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, portserial.o(i.ExitCriticalSection))
+<BR><BR>[Called By]<UL><LI><a href="#[1da95a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[1da95e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[1da961c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[1da9658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+<LI><a href="#[1da9694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[1e18c6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStop
+<LI><a href="#[1e18ca8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStart
+<LI><a href="#[1e18ce4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIISend
+<LI><a href="#[1e18d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIReceive
+<LI><a href="#[1e18d5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIInit
+</UL>
+
+<P><STRONG><a name="[1597fc0]"></a>GPIO_Init</STRONG> (Thumb, 156 bytes, Stack size 20 bytes, stm32f10x_gpio.o(i.GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da385c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Config
+<LI><a href="#[1e1899c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[1597e1c]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_ResetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[1e16f20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegInputCB
+<LI><a href="#[1e172e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+<LI><a href="#[1e17d30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegDiscreteCB
+<LI><a href="#[1e1821c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegCoilsCB
+<LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+
+<P><STRONG><a name="[1597de0]"></a>GPIO_SetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_SetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[1e16f20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegInputCB
+<LI><a href="#[1e172e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+<LI><a href="#[1e17d30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegDiscreteCB
+<LI><a href="#[1e1821c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegCoilsCB
+<LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[1da466c]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.HardFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[1da466c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da466c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1da385c]"></a>LED_Config</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, main.o(i.LED_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = LED_Config &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1594b04]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[1597fc0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da37a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1da4630]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.MemManage_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[1da4630]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da4630]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1da45f4]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.NMI_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1da3820]"></a>NVIC_Configuration</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, main.o(i.NVIC_Configuration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = NVIC_Configuration &rArr; NVIC_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1599f64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da37a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1599f64]"></a>NVIC_Init</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, misc.o(i.NVIC_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = NVIC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da3820]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Configuration
+</UL>
+
+<P><STRONG><a name="[1599f28]"></a>NVIC_PriorityGroupConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, misc.o(i.NVIC_PriorityGroupConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[1da37a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1da45b8]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.PendSV_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1594b7c]"></a>RCC_APB1PeriphClockCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB1PeriphClockCmd))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18924]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+</UL>
+
+<P><STRONG><a name="[1594b04]"></a>RCC_APB2PeriphClockCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB2PeriphClockCmd))
+<BR><BR>[Called By]<UL><LI><a href="#[1da385c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Config
+<LI><a href="#[1e1899c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[1594960]"></a>RCC_GetClocksFreq</STRONG> (Thumb, 134 bytes, Stack size 8 bytes, stm32f10x_rcc.o(i.RCC_GetClocksFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RCC_GetClocksFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1591684]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Init
+</UL>
+
+<P><STRONG><a name="[1da457c]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.SVC_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1da4540]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.SysTick_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[159f694]"></a>SystemInit</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SystemInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[159e014]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClockTo72
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(.text)
+</UL>
+<P><STRONG><a name="[1da4504]"></a>TIM2_IRQHandler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.TIM2_IRQHandler))
+<BR><BR>[Calls]<UL><LI><a href="#[1da5968]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvvTIMERExpiredISR
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1e1bc78]"></a>TIM_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_ClearFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18924]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[1e1bb10]"></a>TIM_Cmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_Cmd))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+
+<P><STRONG><a name="[1e1b534]"></a>TIM_ITConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_ITConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+
+<P><STRONG><a name="[1e1abd4]"></a>TIM_SetCounter</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_SetCounter))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[1e1aa6c]"></a>TIM_TimeBaseInit</STRONG> (Thumb, 114 bytes, Stack size 12 bytes, stm32f10x_tim.o(i.TIM_TimeBaseInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = TIM_TimeBaseInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e18924]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+</UL>
+
+<P><STRONG><a name="[1da6124]"></a>UART1_IRQ</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, portserial.o(i.UART1_IRQ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = UART1_IRQ &rArr; USART_GetITStatus
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1591738]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetITStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da44c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_IRQHandler
+</UL>
+
+<P><STRONG><a name="[1da44c8]"></a>USART1_IRQHandler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.USART1_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USART1_IRQHandler &rArr; UART1_IRQ &rArr; USART_GetITStatus
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1da6124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_IRQ
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1591918]"></a>USART_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_ClearFlag))
+<BR><BR>[Called By]<UL><LI><a href="#[1e189d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialGetByte
+</UL>
+
+<P><STRONG><a name="[1591828]"></a>USART_Cmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_Cmd))
+<BR><BR>[Called By]<UL><LI><a href="#[1e1899c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[1591774]"></a>USART_GetFlagStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_GetFlagStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18960]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialPutByte
+</UL>
+
+<P><STRONG><a name="[1591738]"></a>USART_GetITStatus</STRONG> (Thumb, 62 bytes, Stack size 12 bytes, stm32f10x_usart.o(i.USART_GetITStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USART_GetITStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da6124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART1_IRQ
+</UL>
+
+<P><STRONG><a name="[15916c0]"></a>USART_ITConfig</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, stm32f10x_usart.o(i.USART_ITConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USART_ITConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+</UL>
+
+<P><STRONG><a name="[1591684]"></a>USART_Init</STRONG> (Thumb, 176 bytes, Stack size 32 bytes, stm32f10x_usart.o(i.USART_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1594960]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e1899c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[15914e0]"></a>USART_ReceiveData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_ReceiveData))
+<BR><BR>[Called By]<UL><LI><a href="#[1e189d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialGetByte
+</UL>
+
+<P><STRONG><a name="[159142c]"></a>USART_SendData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_SendData))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18960]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialPutByte
+</UL>
+
+<P><STRONG><a name="[1da448c]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.UsageFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[1da448c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da448c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[1da2074]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[1da2038]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[1da1ffc]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[1e18d5c]"></a>eMBASCIIInit</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, mbascii.o(i.eMBASCIIInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = eMBASCIIInit &rArr; xMBPortSerialInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18924]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[1e1899c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da7c54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+</UL>
+
+<P><STRONG><a name="[1e18d20]"></a>eMBASCIIReceive</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, mbascii.o(i.eMBASCIIReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eMBASCIIReceive
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+<LI><a href="#[1e19860]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvucMBLRC
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1e18ce4]"></a>eMBASCIISend</STRONG> (Thumb, 90 bytes, Stack size 32 bytes, mbascii.o(i.eMBASCIISend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = eMBASCIISend &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+<LI><a href="#[1e19860]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvucMBLRC
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1e18ca8]"></a>eMBASCIIStart</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, mbascii.o(i.eMBASCIIStart))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBASCIIStart &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18a14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+<LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1e18c6c]"></a>eMBASCIIStop</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, mbascii.o(i.eMBASCIIStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBASCIIStop &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+<LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1da7c90]"></a>eMBEnable</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, mb.o(i.eMBEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = eMBEnable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da37a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1e1740c]"></a>eMBFuncChargeAnalogSetup</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, mbfuncholding.o(i.eMBFuncChargeAnalogSetup))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = eMBFuncChargeAnalogSetup &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e172e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+<LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e182d0]"></a>eMBFuncReadCoils</STRONG> (Thumb, 112 bytes, Stack size 16 bytes, mbfunccoils.o(i.eMBFuncReadCoils))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eMBFuncReadCoils &rArr; eMBRegCoilsCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[1e1821c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegCoilsCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e17d6c]"></a>eMBFuncReadDiscreteInputs</STRONG> (Thumb, 112 bytes, Stack size 16 bytes, mbfuncdisc.o(i.eMBFuncReadDiscreteInputs))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eMBFuncReadDiscreteInputs &rArr; eMBRegDiscreteCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e17d30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegDiscreteCB
+<LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e173d0]"></a>eMBFuncReadHoldingRegister</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, mbfuncholding.o(i.eMBFuncReadHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = eMBFuncReadHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e172e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+<LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e16f5c]"></a>eMBFuncReadInputRegister</STRONG> (Thumb, 98 bytes, Stack size 16 bytes, mbfuncinput.o(i.eMBFuncReadInputRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBFuncReadInputRegister &rArr; eMBRegInputCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e16f20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegInputCB
+<LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e17394]"></a>eMBFuncReadWriteMultipleHoldingRegister</STRONG> (Thumb, 158 bytes, Stack size 24 bytes, mbfuncholding.o(i.eMBFuncReadWriteMultipleHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = eMBFuncReadWriteMultipleHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e172e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+<LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e16908]"></a>eMBFuncReportSlaveID</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, mbfuncother.o(i.eMBFuncReportSlaveID))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = eMBFuncReportSlaveID
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1da2b00]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e18294]"></a>eMBFuncWriteCoil</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, mbfunccoils.o(i.eMBFuncWriteCoil))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eMBFuncWriteCoil &rArr; eMBRegCoilsCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[1e1821c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegCoilsCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e17358]"></a>eMBFuncWriteHoldingRegister</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, mbfuncholding.o(i.eMBFuncWriteHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBFuncWriteHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e172e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+<LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e18258]"></a>eMBFuncWriteMultipleCoils</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, mbfunccoils.o(i.eMBFuncWriteMultipleCoils))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBFuncWriteMultipleCoils &rArr; eMBRegCoilsCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[1e1821c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegCoilsCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1e1731c]"></a>eMBFuncWriteMultipleHoldingRegister</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, mbfuncholding.o(i.eMBFuncWriteMultipleHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = eMBFuncWriteMultipleHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e172e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+<LI><a href="#[1e181e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1da7c54]"></a>eMBInit</STRONG> (Thumb, 136 bytes, Stack size 16 bytes, mb.o(i.eMBInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = eMBInit &rArr; eMBRTUInit &rArr; xMBPortSerialInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1da7b64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventInit
+<LI><a href="#[1da9694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[1e18d5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da37a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1da7c18]"></a>eMBPoll</STRONG> (Thumb, 174 bytes, Stack size 16 bytes, mb.o(i.eMBPoll))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = eMBPoll
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1da7ba0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventGet
+<LI><a href="#[1e18a14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da37a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[1da9694]"></a>eMBRTUInit</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, mbrtu.o(i.eMBRTUInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = eMBRTUInit &rArr; xMBPortSerialInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18924]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[1e1899c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da7c54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+</UL>
+
+<P><STRONG><a name="[1da9658]"></a>eMBRTUReceive</STRONG> (Thumb, 68 bytes, Stack size 24 bytes, mbrtu.o(i.eMBRTUReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = eMBRTUReceive &rArr; usMBCRC16
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e15d8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usMBCRC16
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1da961c]"></a>eMBRTUSend</STRONG> (Thumb, 104 bytes, Stack size 32 bytes, mbrtu.o(i.eMBRTUSend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = eMBRTUSend &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e15d8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usMBCRC16
+<LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1da95e0]"></a>eMBRTUStart</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, mbrtu.o(i.eMBRTUStart))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBRTUStart &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1da95a4]"></a>eMBRTUStop</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, mbrtu.o(i.eMBRTUStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBRTUStop &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+<LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[1e18b40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[1e18b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1e1821c]"></a>eMBRegCoilsCB</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, modbuscb.o(i.eMBRegCoilsCB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = eMBRegCoilsCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1597de0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[1597e1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e18258]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteMultipleCoils
+<LI><a href="#[1e18294]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteCoil
+<LI><a href="#[1e182d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadCoils
+</UL>
+
+<P><STRONG><a name="[1e17d30]"></a>eMBRegDiscreteCB</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, modbuscb.o(i.eMBRegDiscreteCB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = eMBRegDiscreteCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1597de0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[1597e1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e17d6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadDiscreteInputs
+</UL>
+
+<P><STRONG><a name="[1e172e0]"></a>eMBRegHoldingCB</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, modbuscb.o(i.eMBRegHoldingCB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1597de0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[1597e1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e1731c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteMultipleHoldingRegister
+<LI><a href="#[1e17358]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteHoldingRegister
+<LI><a href="#[1e17394]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadWriteMultipleHoldingRegister
+<LI><a href="#[1e173d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadHoldingRegister
+<LI><a href="#[1e1740c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncChargeAnalogSetup
+</UL>
+
+<P><STRONG><a name="[1e16f20]"></a>eMBRegInputCB</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, modbuscb.o(i.eMBRegInputCB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = eMBRegInputCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1597de0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[1597e1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e16f5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadInputRegister
+</UL>
+
+<P><STRONG><a name="[1da37a8]"></a>main</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = main &rArr; eMBInit &rArr; eMBRTUInit &rArr; xMBPortSerialInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1599f28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_PriorityGroupConfig
+<LI><a href="#[1da3820]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Configuration
+<LI><a href="#[1da385c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Config
+<LI><a href="#[1da7c18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+<LI><a href="#[1da7c54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+<LI><a href="#[1da7c90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBEnable
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[1e181e0]"></a>prveMBError2Exception</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, mbutils.o(i.prveMBError2Exception))
+<BR><BR>[Called By]<UL><LI><a href="#[1e16f5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadInputRegister
+<LI><a href="#[1e1731c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteMultipleHoldingRegister
+<LI><a href="#[1e17358]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteHoldingRegister
+<LI><a href="#[1e17394]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadWriteMultipleHoldingRegister
+<LI><a href="#[1e173d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadHoldingRegister
+<LI><a href="#[1e1740c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncChargeAnalogSetup
+<LI><a href="#[1e17d6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadDiscreteInputs
+<LI><a href="#[1e18258]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteMultipleCoils
+<LI><a href="#[1e18294]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteCoil
+<LI><a href="#[1e182d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadCoils
+</UL>
+
+<P><STRONG><a name="[1da5968]"></a>prvvTIMERExpiredISR</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, porttimer.o(i.prvvTIMERExpiredISR))
+<BR><BR>[Called By]<UL><LI><a href="#[1da4504]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM2_IRQHandler
+</UL>
+
+<P><STRONG><a name="[1e15d8c]"></a>usMBCRC16</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, mbcrc.o(i.usMBCRC16))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = usMBCRC16
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da961c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[1da9658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+</UL>
+
+<P><STRONG><a name="[1e18ac8]"></a>vMBPortSerialEnable</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, portserial.o(i.vMBPortSerialEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[15916c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ITConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da94f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+<LI><a href="#[1da95a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[1da95e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[1da961c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[1e18bb8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIITransmitFSM
+<LI><a href="#[1e18c6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStop
+<LI><a href="#[1e18ca8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStart
+<LI><a href="#[1e18ce4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIISend
+</UL>
+
+<P><STRONG><a name="[1e18a8c]"></a>vMBPortTimersDisable</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, porttimer.o(i.vMBPortTimersDisable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = vMBPortTimersDisable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1597e1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+<LI><a href="#[1e1b534]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITConfig
+<LI><a href="#[1e1bb10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_Cmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da952c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTimerT35Expired
+<LI><a href="#[1da95a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[1e18bf4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIITimerT1SExpired
+<LI><a href="#[1e18c30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIIReceiveFSM
+<LI><a href="#[1e18c6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStop
+</UL>
+
+<P><STRONG><a name="[1e18a50]"></a>vMBPortTimersEnable</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, porttimer.o(i.vMBPortTimersEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = vMBPortTimersEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1597de0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[1e1abd4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCounter
+<LI><a href="#[1e1b534]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITConfig
+<LI><a href="#[1e1bb10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_Cmd
+<LI><a href="#[1e1bc78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearFlag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da9568]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUReceiveFSM
+<LI><a href="#[1da95e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[1e18c30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIIReceiveFSM
+</UL>
+
+<P><STRONG><a name="[1e18c30]"></a>xMBASCIIReceiveFSM</STRONG> (Thumb, 210 bytes, Stack size 24 bytes, mbascii.o(i.xMBASCIIReceiveFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = xMBASCIIReceiveFSM &rArr; xMBPortSerialGetByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e189d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialGetByte
+<LI><a href="#[1e18a14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+<LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1e18bf4]"></a>xMBASCIITimerT1SExpired</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, mbascii.o(i.xMBASCIITimerT1SExpired))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = xMBASCIITimerT1SExpired &rArr; vMBPortTimersDisable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1e18bb8]"></a>xMBASCIITransmitFSM</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, mbascii.o(i.xMBASCIITransmitFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = xMBASCIITransmitFSM &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18960]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialPutByte
+<LI><a href="#[1e18a14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+<LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[1e1989c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvucMBBIN2CHAR
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1da7ba0]"></a>xMBPortEventGet</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventGet))
+<BR><BR>[Called By]<UL><LI><a href="#[1da7c18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+</UL>
+
+<P><STRONG><a name="[1da7b64]"></a>xMBPortEventInit</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventInit))
+<BR><BR>[Called By]<UL><LI><a href="#[1da7c54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+</UL>
+
+<P><STRONG><a name="[1e18a14]"></a>xMBPortEventPost</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventPost))
+<BR><BR>[Called By]<UL><LI><a href="#[1da7c18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+<LI><a href="#[1da94f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+<LI><a href="#[1da952c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTimerT35Expired
+<LI><a href="#[1e18bb8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIITransmitFSM
+<LI><a href="#[1e18c30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIIReceiveFSM
+<LI><a href="#[1e18ca8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIStart
+</UL>
+
+<P><STRONG><a name="[1e189d8]"></a>xMBPortSerialGetByte</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, portserial.o(i.xMBPortSerialGetByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = xMBPortSerialGetByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[15914e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ReceiveData
+<LI><a href="#[1591918]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ClearFlag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da9568]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUReceiveFSM
+<LI><a href="#[1e18c30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIIReceiveFSM
+</UL>
+
+<P><STRONG><a name="[1e1899c]"></a>xMBPortSerialInit</STRONG> (Thumb, 190 bytes, Stack size 56 bytes, portserial.o(i.xMBPortSerialInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = xMBPortSerialInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1591684]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Init
+<LI><a href="#[1591828]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Cmd
+<LI><a href="#[1594b04]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[1597fc0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da9694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[1e18d5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIInit
+</UL>
+
+<P><STRONG><a name="[1e18960]"></a>xMBPortSerialPutByte</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, portserial.o(i.xMBPortSerialPutByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = xMBPortSerialPutByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[159142c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SendData
+<LI><a href="#[1591774]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da94f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+<LI><a href="#[1e18bb8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIITransmitFSM
+</UL>
+
+<P><STRONG><a name="[1e18924]"></a>xMBPortTimersInit</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, porttimer.o(i.xMBPortTimersInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = xMBPortTimersInit &rArr; TIM_TimeBaseInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1594b7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
+<LI><a href="#[1e1aa6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
+<LI><a href="#[1e1bc78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearFlag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1da9694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[1e18d5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIInit
+</UL>
+
+<P><STRONG><a name="[1da9568]"></a>xMBRTUReceiveFSM</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, mbrtu.o(i.xMBRTUReceiveFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = xMBRTUReceiveFSM &rArr; xMBPortSerialGetByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e189d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialGetByte
+<LI><a href="#[1e18a50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1da952c]"></a>xMBRTUTimerT35Expired</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, mbrtu.o(i.xMBRTUTimerT35Expired))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = xMBRTUTimerT35Expired &rArr; vMBPortTimersDisable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18a14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+<LI><a href="#[1e18a8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[1da94f0]"></a>xMBRTUTransmitFSM</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, mbrtu.o(i.xMBRTUTransmitFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = xMBRTUTransmitFSM &rArr; vMBPortSerialEnable &rArr; USART_ITConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1e18960]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialPutByte
+<LI><a href="#[1e18a14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+<LI><a href="#[1e18ac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL><P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[159e014]"></a>SetSysClockTo72</STRONG> (Thumb, 138 bytes, Stack size 0 bytes, system_stm32f10x.o(i.SetSysClockTo72))
+<BR><BR>[Called By]<UL><LI><a href="#[159f694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[1e1989c]"></a>prvucMBBIN2CHAR</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, mbascii.o(i.prvucMBBIN2CHAR))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18bb8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBASCIITransmitFSM
+</UL>
+
+<P><STRONG><a name="[1e19860]"></a>prvucMBLRC</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, mbascii.o(i.prvucMBLRC))
+<BR><BR>[Called By]<UL><LI><a href="#[1e18ce4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIISend
+<LI><a href="#[1e18d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBASCIIReceive
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

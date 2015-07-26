@@ -1,0 +1,45 @@
+*** Creating Trace Output File '.\obj\STM3210E-EVAL.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj\mbascii.o"'
+### List of Objects: adding '".\obj\mbfunccoils.o"'
+### List of Objects: adding '".\obj\mbfuncdiag.o"'
+### List of Objects: adding '".\obj\mbfuncdisc.o"'
+### List of Objects: adding '".\obj\mbfuncholding.o"'
+### List of Objects: adding '".\obj\mbfuncinput.o"'
+### List of Objects: adding '".\obj\mbfuncother.o"'
+### List of Objects: adding '".\obj\mbutils.o"'
+### List of Objects: adding '".\obj\mbcrc.o"'
+### List of Objects: adding '".\obj\mbrtu.o"'
+### List of Objects: adding '".\obj\mbtcp.o"'
+### List of Objects: adding '".\obj\mb.o"'
+### List of Objects: adding '".\obj\portevent.o"'
+### List of Objects: adding '".\obj\portserial.o"'
+### List of Objects: adding '".\obj\porttimer.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\modbuscb.o"'
+### ADS-LD Command completed:
+--device DARMSTM ".\obj\startup_stm32f10x_hd.o" ".\obj\system_stm32f10x.o" ".\obj\core_cm3.o" ".\obj\misc.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_tim.o" ".\obj\mbascii.o" ".\obj\mbfunccoils.o" ".\obj\mbfuncdiag.o" ".\obj\mbfuncdisc.o" ".\obj\mbfuncholding.o" ".\obj\mbfuncinput.o" ".\obj\mbfuncother.o" ".\obj\mbutils.o" ".\obj\mbcrc.o" ".\obj\mbrtu.o" ".\obj\mbtcp.o" ".\obj\mb.o" ".\obj\portevent.o" ".\obj\portserial.o" ".\obj\porttimer.o" ".\obj\stm32f10x_it.o" ".\obj\main.o" ".\obj\modbuscb.o" 
+--library_type=microlib --strict --scatter ".\obj\STM3210E-EVAL.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\obj\STM3210E-EVAL.map" -o .\obj\STM3210E-EVAL.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\STM3210E-EVAL.axf'
+### ADS-LD Command File: '.\obj\STM3210E-EVAL.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\STM3210E-EVAL.lnp', Handle=0x000009B0
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\STM3210E-EVAL.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
